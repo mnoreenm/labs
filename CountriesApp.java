@@ -40,6 +40,7 @@ String addCountry;
  switch(userInput){
  case 1: country = countriesTextFile.readCountryList();
  System.out.println(country);
+ System.out.println();
  break;
  case 2 :System.out.println("Enter Country");
  
@@ -50,7 +51,7 @@ String addCountry;
 	 System.out.println();
  break;
  case 3 :System.out.println("Exit");
- 
+ System.out.println();
  break;
  
  default: System.out.println("Wrong input.Please enter from 1 to 3");
