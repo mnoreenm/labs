@@ -1,0 +1,68 @@
+h1 {
+	
+	font-size: 400%;
+	color: lightcoral;
+	text-align : center;
+	border: 5px solid black;
+}
+h2 {
+	color: green;
+	font-size: 250%;
+	text-align : center;
+	border: 3px solid black;
+}
+
+p{
+	font-size: 100%;
+	font-style: italic;
+	font-weight: bold;
+	text-align : center;
+	color: solid black;
+	border: 1px solid black;
+	border-bottom : 5px solid black;
+	border-radius : 5px;
+	}
+	img {
+     position : center ;
+	}
+	
+	body{ 
+	background-color: #c0c0c0;
+	
+	
+	}
+	#Id1{
+	font-style: italic;
+	font-weight: bold;
+	text-align : center;
+	color: #8000ff;
+	width:100 px;
+	}
+	#inId1{
+	font-size: 200px;
+	text-align : center;}
+	#id2{
+	width:200 px;
+	font-style: italic;
+	color: #800040;
+	text-align : center;
+	}
+p.go{
+	
+	text-align : center;
+	color: crimson;
+	border: 1px solid black;
+	
+	border-radius : 2px;
+}
+
+p.1{
+	
+	text-align : center;
+	color: crimson;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
