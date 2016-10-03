@@ -1,15 +1,17 @@
 h1 {
 	
-	font-size: 400%;
+	font-size: 200%;
 	color: lightcoral;
 	text-align : center;
-	border: 5px solid black;
+	border: 1px solid black;
+	border-bottom : 5px solid black;
+	border-radius : 5px;
 }
 h2 {
 	color: green;
-	font-size: 250%;
+	font-size: 150%;
 	text-align : center;
-	border: 3px solid black;
+	
 }
 
 p{
@@ -18,9 +20,9 @@ p{
 	font-weight: bold;
 	text-align : center;
 	color: solid black;
-	border: 1px solid black;
-	border-bottom : 5px solid black;
-	border-radius : 5px;
+	<!--border: 1px solid black;-->
+	<!--border-bottom : 5px solid black;-->
+	<!--border-radius : 5px;-->
 	}
 	img {
      position : center ;
@@ -53,7 +55,7 @@ p.go{
 	color: crimson;
 	border: 1px solid black;
 	
-	border-radius : 2px;
+	
 }
 
 p.1{
@@ -64,5 +66,5 @@ p.1{
 img {
     display: block;
     margin: auto;
-    width: 20%;
+    width: 300px;
 }
