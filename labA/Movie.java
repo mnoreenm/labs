@@ -2,7 +2,7 @@
  * Source Material (c) 2016 GCD
  * All rights reserved
  */
-package co.grandcircus.movies.model;
+package labA;
 
 /**
  * Responsibility: Hold information about any ONE movie.

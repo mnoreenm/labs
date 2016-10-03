@@ -50,8 +50,7 @@
 
 		<div>
 			<label>BlackAndWhite Or Colored<br></label> <br>
-			 <input type="checkbox" name="colored movies" value="   "> colored <br>
-			<input type="checkbox" name="black and white" value="blackAndWhite">
+			 <input type="checkbox" name="blackAndWhite" value=true> 
 			Black And White
 		</div>
 		

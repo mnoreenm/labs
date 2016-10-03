@@ -30,16 +30,16 @@
 			<td>${ movie.year }</td>
 			<td>${ movie.description }</td>
 			<td>${ movie.rating }</td>
-			<td>${ movie.blackAndWhite }</td>
-			<td>${ movie.origin }</td>
-			
-		</tr>
-		<td>
+			<td>
                    <c:if test="${movie.blackAndWhite=='true'}">
                       <input type="checkbox" name="blackAndWhite" checked/>
                   </c:if>
                    </td>
-	</c:forEach>
+			
+			<td>${ movie.origin }</td>
+			
+		</tr>
+			</c:forEach>
 </table>
 <div class="action-bar">
 	<a class="add-btn" href="<c:url value="/movies/create"/>">Add a movie</a>
